@@ -1,0 +1,403 @@
+***********GLOBAL***************
+button
+{
+    outline: none;
+    cursor: pointer;
+}
+/**********************************/
+.nav
+{
+    background: linear-gradient(45deg, #292444, #02ffc4);
+/*    border-bottom: 2px solid #fff;*/
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: -1%;
+    z-index: 99;
+    border-radius: 0 0 0 29px;
+}
+.nav h1
+{
+    color: #FFF;
+    position: absolute;
+    left: 3%;
+    top: 14%;
+    font-family: cursive;
+    font-size: 34px;
+    cursor: pointer;
+}
+.nav h1 span
+{
+    color: #02ffc4;
+    font-size: 43px;
+    font-weight: bolder;
+}
+/********** INDEX ***************/
+#index
+{
+    width: 100%;
+    height: 100%;
+    background: #02ffc4;
+    position: relative;
+/*    display: none;*/
+}
+#index .box
+{
+    
+    width: 400px;
+    height: 400px;
+    background: #292444;
+    position: absolute;
+    top: 20%;
+    left: 36%;
+    border-radius: 21px;
+    /* border: 36px solid #FFF; */
+    box-shadow: 2px 2px 19px #02ffc4 inset;
+
+}
+#index .box .group-btns
+{
+    position: absolute;
+    left: 25%;
+    top: 22%;
+}
+#index .box .group-btns button
+{
+    display: block;
+    margin-bottom: 21px;
+    width: 202px;
+    padding: 8px;
+    border-radius: 20px 0;
+    outline: none;
+    color: #FFF;
+    background: linear-gradient(45deg, #3effd2, #b7b7b7);
+    font-weight: bold;
+    font-family: cursive;
+    border: 1px solid;
+    font-size: 21px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+#index .box .group-btns button:hover
+{
+    transform: scale(1.1);
+}
+/*********************************/
+
+/********* My Content ************/
+#myContent
+{
+    padding-top: 80px;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    background: aliceblue;
+    display: none;
+    
+    
+}
+#myContent #compteur
+{
+   position: absolute;
+    right: 47%;
+    bottom: 28%;
+    width: 80px;
+    height: 80px;
+    background: #105aff;
+    border-radius: 50%;
+    font-size: 51px;
+    color: #FFF;
+    font-weight: bold;
+    border: 3px solid #ff870b;
+    font-family: cursive;
+}
+#myContent #test_Txt
+{
+/*    border: 2px solid #ccc;*/
+    box-shadow: 4px 6px 16px #ccc;
+    padding: 20px;
+    border-radius: 20px;
+    width: 100%;
+    height: 288px;
+    margin-bottom: -146px;
+    background: #FFF;
+    font-size: 20px;
+    font-family: monospace;
+    color: #4a4444;
+    overflow: auto;
+}
+#myContent #txtArea
+{
+/*
+    width: 101%;
+    height: 300px;
+*/
+    width: 10000%;
+    height: 100px;
+    font-size: 40px;
+    position: absolute;
+    top:250px;
+    left: -30px;
+    transition: .6s;
+    box-shadow: 4px 6px 16px #ccc;
+}
+#myContent #AffText
+{
+/*    border: 2px solid #ccc;*/
+    padding: 20px;
+    border-radius: 20px;
+    width: 100%;
+    height: 288px;
+    margin-bottom: -146px;
+    box-shadow: 4px 6px 16px #ccc;
+    background: #FFF;
+    font-size: 20px;
+    font-family: monospace;
+    color: #4a4444;
+}
+
+
+#myContent #start
+{
+  position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    display: none;
+}
+#myContent #start .start-box
+{
+   width: 400px;
+    height: 400px;
+    background: #FFF;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    border-radius: 44px;
+    box-shadow: 13px 10px 10px #ccc inset;
+}
+#myContent #start .start-box #btn-play
+{
+  position: absolute;
+    top: 22%;
+    left: 39%;
+ cursor: pointer;
+    transition: .5s;
+}
+#myContent #start .start-box #btn-play:hover
+{
+    transform: scale(1.1);
+    color: #02f1ba;
+}
+#myContent #start .start-box #btn-play span
+{
+    display: block;
+}
+#myContent #start .start-box #btn-play .icon
+{
+  font-size: 58px;
+    border: 2px solid;
+    padding: 20px 35px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+#myContent #start .start-box #btn-play .txt-start
+{
+    font-size: 44px;
+    /* text-align: center; */
+    font-family: cursive;
+}
+
+#myContent #start .start-box #btn_ret_menu
+{
+ position: absolute;
+    bottom: 10%;
+    left: 21%;
+    font-size: 29px;
+    font-family: cursive;
+    cursor: pointer;
+    transition: .5s;
+}
+#myContent #start .start-box #btn_ret_menu:hover
+{
+    transform: scale(1.1);
+    color: #02f1ba;
+}
+
+
+#myContent #finish
+{
+   position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg,#0d67d6, transparent);
+    display: none;
+}
+#myContent #finish .finish-box
+{
+    position: absolute;
+    top: 14%;
+    left: 20%;
+    width: 800px;
+    height: 500px;
+    background: rgba(0,0,0,0.6);
+    border-radius: 25px;
+    box-shadow: 2px 3px 28px #fff inset;
+}
+#myContent #finish .finish-box h2
+{
+   position: absolute;
+    left: 15%;
+    top: 12%;
+    color: #FFF;
+    letter-spacing: 3px;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 39px;
+}
+#myContent #finish .finish-box h2 #like_name
+{
+    
+    color: #02f5bc;
+    text-shadow: 2px 2px 18px #02f8bf, 2px 2px 21px #02f5bc;
+    font-size: 43px;
+
+}
+#myContent #finish .finish-box .stats
+{
+   position: absolute;
+    left: 10%;
+    top: 27%;
+    border-radius: 20px;
+/*    background: radial-gradient(white, #ffbe07);*/
+    width: 80%;
+    height: 210px;
+}
+#myContent #finish .finish-box .stats #accuracy
+{
+  width: 150px;
+    height: 150px;
+    background: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    left: 14%;
+    top: 6%;
+    border: 10px solid #2ede2e;
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 126px;
+    color: #149a14;
+    box-shadow: 3px 3px 28px #0ee46d, 3px 3px 45px #0ee46d;
+}
+#myContent #finish .finish-box .stats #accuracy::after
+{
+    content: "Accuracy";
+    font-size: 44px;
+    position: absolute;
+    bottom: -74%;
+    left: -25px;
+    text-shadow: 2px -1px 31px #0ee46d;
+    color: #0ee46d;
+}
+#myContent #finish .finish-box .stats #speed
+{
+   width: 150px;
+    height: 150px;
+    background: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    left: 64%;
+    top: 6%;
+    border: 10px solid #0090b1;
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 126px;
+    color: #0090b1;
+    box-shadow: 3px 3px 28px #0090b1, 3px 3px 45px #0090b1;
+}
+#myContent #finish .finish-box .stats #speed::after
+{
+   content: "Speed";
+    font-size: 44px;
+    position: absolute;
+    bottom: -74%;
+    left: 6px;
+    text-shadow: 2px -1px 31px #0090b1;
+    color: #0090b1;
+   
+}
+#myContent #finish .finish-option
+{
+    position: absolute;
+    bottom: 9%;
+    left: 24%;
+    font-family: cursive;
+    color: #FFF;
+    font-weight: 500;
+}
+#myContent #finish .finish-option span
+{
+    font-size: 46px;
+    margin-right: 85px;
+    cursor: pointer;
+    display: inline-block;
+}
+#myContent #finish .finish-option span:hover
+{
+    transform: scale(1.1);
+}
+/********/
+#get-started
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+#get-started h2
+{
+    position: absolute;
+    top: 19%;
+    color: #FFF;
+    font-size: 55px;
+    left: 7%;
+    text-shadow: 4px 4px 13px #000;
+    font-weight: 700;
+    font-family: cursive;
+}
+#get-started #btn-getStarted
+{
+    position: absolute;
+    cursor: pointer;
+    transition: .3s ease-in;
+    top: 50%;
+    left: 35%;
+    color: #FFF;
+    width: 400px;
+    height: 52px;
+    background: none;
+    outline: none;
+    border-radius: 7px;
+    font-size: 30px;
+    font-weight: 800;
+    text-shadow: 2px 2px 3px #28e7d5;
+    border: 2px solid #FFF;
+}
+#get-started #btn-getStarted:hover
+{
+    background-color: #fff;
+    color: #08e1b3;
+    text-shadow: 2px 2px 3px #ddd;
+}
+
+
+footer {
+    background: #159888;
+    color: #e4d9d9;
+    font-weight: 100;
+}

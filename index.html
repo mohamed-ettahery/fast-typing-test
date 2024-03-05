@@ -1,0 +1,93 @@
+<!DOCTYPE html5>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>min Typing Speed</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="icon" type="image/png" href="images/favicon.jpg"/>
+    </head>
+    <body>
+    <div class="nav">
+        <h1 id="title">min Typing<span>Speed</span></h1>
+    </div>
+    <!-- <div id="get-started" style="background: url('images/back.jpg');"> -->
+    <div id="get-started">
+        <h2 class="h1">
+            Check your typing skills in a minute
+        </h2>
+        <button id="btn-getStarted">GET STARTED</button>
+    </div>
+    <div id="index">
+        <div class="container">
+            <div class="box">
+                <div class="group-btns">
+                    <button id="small">Easy Level</button>
+                    <button id="medium">Medium Level</button>
+                    <button id="long">Hard Level</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="myContent">
+        <div class="container text-center">
+            <div id="compteur">60</div>
+            <div class="row">
+                <div class="col-6">
+                    <div id="test_Txt">
+                        Hello World we wish you all the best today and everyday or everytime , thank you so much about all this respect for us and we want till you some words it is go ahead. Hello World we wish you all the best today and everyday or everytime , thank you so much about all this respect for us and we want till you some words it is go ahead.
+                    </div>
+                </div>
+                <div class="col-6">
+                    <p id="AffText"></p>
+                </div>
+                <div class="col-12">
+                    <textarea id="txtArea" class="form-control" placeholder="Typing here ..."></textarea>
+                </div>
+
+            </div>
+        </div>
+        <div id="start">
+            <div class="start-box">
+                <div id="btn-play">
+                    <span class="icon"><i class="fa fa-play"></i></span>
+                    <span class="txt-start">Start</span>
+                </div>
+                 <div id="btn_ret_menu">
+                    <i class="fa fa-list"></i>
+                    Menu
+                </div>
+            </div>
+        </div>
+        <div id="finish">
+            <div class="finish-box">
+                <h2>Your Level Is <span id="like_name">Turtle</span></h2>
+                <div class="stats">
+                    <div id="accuracy">
+                        0%
+                    </div>
+                    <div id="speed">
+                        0%
+                    </div>
+                </div>
+                <div class="finish-option">
+                    <span id="ret-menu-from-finish"><i class="fa fa-list"></i>Menu</span>
+                    <span id="restart"><i class="fa fa-play"></i>Restart</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="text-center">
+        <div class="container">
+           <div><span class="footer-brand">min TypingSpeed</span> - Copyright © 2021-<span id="copyright-year"></span></div>
+        </div>
+    </footer>
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/backend.js"></script>
+    </body>
+</html>
